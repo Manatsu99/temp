@@ -97,7 +97,8 @@ public class test {
         }
         Long average = sum/temp.size();
         System.out.println("平均処理時間は "+average+" です");
-        pw.close();
+        pw.println("平均処理時間は "+average+"です"); 
+	pw.close();
         scanner.close();
     }
 }

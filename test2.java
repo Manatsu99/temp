@@ -78,6 +78,7 @@ public class test2 {
     static void loop(int time){
         int j=0;
         while (j!=time) {
+	    System.out.println("No:"+j);
             run();
             ++j;
         }
